@@ -1,0 +1,70 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2014-05-21 16:41:19 --- CRITICAL: ErrorException [ 2 ]: Invalid argument supplied for foreach() ~ APPPATH\views\DeltaGallery\Upload.php [ 4 ] in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:4
+2014-05-21 16:41:19 --- DEBUG: #0 C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php(4): Kohana_Core::error_handler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\xampp\htdocs\kohana\application\views\template.php(23): Kohana_View->__toString()
+#5 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Manage))
+#11 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\xampp\htdocs\kohana\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 C:\xampp\htdocs\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:4
+2014-05-21 16:45:30 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: There was a problem while uploading the image.
+				Make sure it is uploaded and must be JPG/PNG/GIF. ~ APPPATH\views\DeltaGallery\Upload.php [ 4 ] in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:4
+2014-05-21 16:45:30 --- DEBUG: #0 C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php(4): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4, Array)
+#1 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\xampp\htdocs\kohana\application\views\template.php(23): Kohana_View->__toString()
+#5 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Manage))
+#11 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\xampp\htdocs\kohana\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 C:\xampp\htdocs\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:4
+2014-05-21 17:12:49 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: errors_message ~ APPPATH\views\DeltaGallery\Upload.php [ 2 ] in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:2
+2014-05-21 17:12:49 --- DEBUG: #0 C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php(2): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\xampp\htdocs\kohana\application\views\template.php(23): Kohana_View->__toString()
+#5 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Manage))
+#11 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\xampp\htdocs\kohana\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 C:\xampp\htdocs\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:2
+2014-05-21 17:19:25 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected '$this' (T_VARIABLE) ~ APPPATH\classes\Controller\Manage.php [ 82 ] in file:line
+2014-05-21 17:19:25 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2014-05-21 17:19:52 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: input ~ APPPATH\views\DeltaGallery\Upload.php [ 11 ] in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:11
+2014-05-21 17:19:52 --- DEBUG: #0 C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php(11): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 11, Array)
+#1 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(228): Kohana_View->render()
+#4 C:\xampp\htdocs\kohana\application\views\template.php(23): Kohana_View->__toString()
+#5 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(61): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\kohana\system\classes\Kohana\View.php(348): Kohana_View::capture('C:\\xampp\\htdocs...', Array)
+#7 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\xampp\htdocs\kohana\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Manage))
+#11 C:\xampp\htdocs\kohana\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\xampp\htdocs\kohana\system\classes\Kohana\Request.php(986): Kohana_Request_Client->execute(Object(Request))
+#13 C:\xampp\htdocs\kohana\index.php(118): Kohana_Request->execute()
+#14 {main} in C:\xampp\htdocs\kohana\application\views\DeltaGallery\Upload.php:11
